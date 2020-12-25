@@ -19,4 +19,4 @@ https://tushar2411.github.io/networking/
 
 #### Social links:    
   -Twitter: https://twitter.com/Tushar01_01    
-  -Linkedin: linkedin.com/in/tusharsharma-258302144    
+  -Linkedin: https://www.linkedin.com/in/tushar-sharma-258302144/  
