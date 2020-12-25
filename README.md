@@ -8,12 +8,15 @@
 https://tushar2411.github.io/networking/
 
 ## Contents:     
-  -Computer Networking   
+  -Computer Networking     
   -Cybersecurity  
   -Various cybersec tools  
   -Tips to stay secure online  
+
 ### About Me:  
--Currently an IT student
--Learning computer networking and pentesting.  
--Twitter: https://twitter.com/Tushar01_01  
--Linkedin: linkedin.com/in/tusharsharma258302144  
+  -Currently an IT student  
+  -Learning computer networking and pentesting.    
+
+#### Social links:    
+  -Twitter: https://twitter.com/Tushar01_01    
+  -Linkedin: linkedin.com/in/tusharsharma-258302144    
