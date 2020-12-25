@@ -14,7 +14,7 @@ https://tushar2411.github.io/networking/
   -Tips to stay secure online  
 
 ### About Me:  
-  -Currently an IT student  
+  -Currently an IT student.  
   -Learning computer networking and pentesting.    
 
 #### Social links:    
