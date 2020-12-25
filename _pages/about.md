@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 # My Blog:  
-https://tushar2411.github.io/networking/
+[https://tushar2411.github.io/networking/](https://tushar2411.github.io/networking/)
 
 Hello everyone my name is Tushar. This is my blog in which i'll be posting tutorials about   
 computer networking and cybersecurity. I will post some tips and articles about penetration   
@@ -29,5 +29,5 @@ Note: These articles will be studied and posted via help from google or books.
   -Learning computer networking and pentesting.    
 
 ## Social links:    
-  -Twitter: https://twitter.com/Tushar01_01    
-  -Linkedin: https://www.linkedin.com/in/tushar-sharma-258302144/  
+  -Twitter: [https://twitter.com/Tushar01_01](https://twitter.com/Tushar01_01)   
+  -Linkedin: [https://www.linkedin.com/in/tushar-sharma-258302144/](https://www.linkedin.com/in/tushar-sharma-258302144/)  
