@@ -25,10 +25,10 @@ Note: These articles will be studied and posted via help from google or books.
   -Various cybersec tools  
   -Tips to stay secure online  
 
-### About Me:  
+## About Me:  
   -Currently an IT student.  
   -Learning computer networking and pentesting.    
 
-#### Social links:    
+## Social links:    
   -Twitter: https://twitter.com/Tushar01_01    
   -Linkedin: https://www.linkedin.com/in/tushar-sharma-258302144/  
