@@ -30,25 +30,25 @@ The effectiveness of the data communication depends on:-
 Information today comes in different forms such as text, numbers, image, audio and video.
 
 * Text   
-Text is represented in the form of bit pattern, which is a sequence of bits (0's and 1's). Different sets of bit pattern have been designed to represent text symbols. Each set is called code and the process of designating the symbols is called coding.  
-Today the prevalent coding that is being used is [*unicode*](https://en.wikipedia.org/wiki/Unicode) uses 32 bits to represent each symbol or character used in any language in the world.
+Text is represented in the form of bit pattern, which is a sequence of bits (0's and 1's). Different sets of bit pattern have been designed to represent text symbols. Each set is called code and the process of designating the symbols is called coding.    
+Today the prevalent coding that is being used is [*unicode*](https://en.wikipedia.org/wiki/Unicode) uses 32 bits to represent each symbol or character used in any language in the world.  
 
-*` Note:  ASCII or American Standard Code For Information Interchange constitutes of first 127 character of the unicode.  `*
+*` Note:  ASCII or American Standard Code For Information Interchange constitutes of first 127 character of the unicode.  `*  
 
-*  Numbers
+*  Numbers  
 Numbers are also represented by bit patterns. They are also represented in a ASCII table.      
 
-* Image
-Image is composed of a matrix of pixel (image elements).The size of the pixel depends on the resolution of the pixel. Each pixel is assigned a bit pattern and the bit pattern depends on the the size of the pixel.
-Size of the pixel of the image depends on the basis of there types. for example- black and white, greyscale, RGB and YCM.
+* Image  
+Image is composed of a matrix of pixel (image elements).The size of the pixel depends on the resolution of the pixel. Each pixel is assigned a bit pattern and the bit pattern depends on the the size of the pixel.  
+Size of the pixel of the image depends on the basis of there types. for example- black and white, greyscale, RGB and YCM.  
 
-* Audio 
+* Audio   
 Here audio refers to the recording or broadcasting of sound or music. Audios are alot different than the other form of data such as images, numbers and text. It is continuous not discrete even when we change it to an electrical signal we create a continuous signal.
 
-* Video
-It also refers to broadcasting but of a picture or movie. It can be both continuous entity (e.g. using a camera) or a discrete entity using a number of images where each represents a discrete entity.
+* Video  
+It also refers to broadcasting but of a picture or movie. It can be both continuous entity (e.g. using a camera) or a discrete entity using a number of images where each represents a discrete entity.  
 
-## Data Flow 
+## Data Flow  
 There are multiple methods by which data transmission takes place between devices which varies on the need and type of our devices.
 There are three types of data flow techniques which are used:
 1. Simplex Mode:
