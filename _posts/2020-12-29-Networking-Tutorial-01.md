@@ -8,7 +8,7 @@ author: Tushar Sharma
 ---
 
 # Data Communication
-Data communications are the exchange of data between two devices via some form of transmission medium such as a wire cable.
+Data communication is the exchange of data between two devices via some form of transmission medium such as a wire cable.
 
 ## Effectiveness Of Data Communication
 The effectiveness of the data communication depends on:-   
