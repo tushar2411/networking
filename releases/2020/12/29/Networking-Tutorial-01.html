@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Networking Tutorial 1:- Data Communication | Computer Networking And Cybersecurity</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Networking Tutorial 1:- Data Communication" />
+<meta name="author" content="Tushar Sharma" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Data Communication Data communications are the exchange of data to the between two devices via some form of transmission medium such as a wire cable. Effectiveness Of Data Communication The effectiveness of the data communication depends on:- Delivery: Data must be received by intended user. Accuracy: Accurate data should be delivered to user. Timelliness: Data should be delivered in timely manner. Jitter: It refers to the variation in the packet arrival. Components OF Data Communication Message: Information(data) to be communicated. Sender: Device that sends the message. Receiver: Device that receives message. Transmission Medium: Path through which data transfers from sender to receiver. Protocol: Set of rules for the transmission. Data Communication Model Data Representation information today comes in different forms such as text, numbers, images, audio and video. Text Text is represented in the form of bit pattern, which is a sequence of bits (0’s and 1’s). Different sets of bit pattern have been designed to represent text symbols. Each set is called code and the process of designating the symbols is called coding. Today the prevalent coding that is being used is unicode uses 32 bits to represent each symbol or character used in any language in the world. Note: ASCII or American Standard Code For Information Interchange constitutes of first 127 character of the unicode. Numbers Numbers are also represented by bit patterns. They are also represented in a ASCII table. Image Image is composed of a matrix of pixel (image elements).The size of the pixel depends on the resolution of the pixel. Each pixel is assigned a bit pattern and the bit pattern depends on the the size of the pixel. Size of the pixel of the image depends on the basis of there types. for example- black and white, greyscale, RGB and YCM. Audio Here audio refers to the recording or broadcasting of sound or music. Audios are alot different than the other form of data such as images, numbers and text. It is continuous not discrete even when we change it to an electrical signal we create a continuous signal. Video It also refers to broadcasting but of a picture or movie. It can be both contiuous entity (e.g. using a camera) or a discrete entity using a number of images where each represents a discrete entity. Data Flow There are multiple methods by which data transmission takes place between devices which varies on the need and type of our devices. There are three types of data flow techniques which are used which are: Simplex Mode: In simplex mode, the communication is unidirectional as oon a one way street. Only one device on the network can send and only one device can receive the data. Simplex mode is most commonly used in devices like keyboard and mouse. Half-Dulpex Mode: in the duplex mode both the devices on the network can behave like sender and receiver and transmit data to each other. A common example for duplex mode are walky-talkies. Full-Duplex Mode: In Full-Duplex mode both the devices can perform sender and receiver task either ways but unlike half duplex they can perform tasks simultaneously.A common example of full duplex mode is the telephone network. When two individuals are talking to each other on a telephone network they can talk and listen at same time. So that is it for our first tutorial of computer networking, In next tutorial we will learn about networks. please do shre your suggestionsand feedback in comments." />
+<meta property="og:description" content="Data Communication Data communications are the exchange of data to the between two devices via some form of transmission medium such as a wire cable. Effectiveness Of Data Communication The effectiveness of the data communication depends on:- Delivery: Data must be received by intended user. Accuracy: Accurate data should be delivered to user. Timelliness: Data should be delivered in timely manner. Jitter: It refers to the variation in the packet arrival. Components OF Data Communication Message: Information(data) to be communicated. Sender: Device that sends the message. Receiver: Device that receives message. Transmission Medium: Path through which data transfers from sender to receiver. Protocol: Set of rules for the transmission. Data Communication Model Data Representation information today comes in different forms such as text, numbers, images, audio and video. Text Text is represented in the form of bit pattern, which is a sequence of bits (0’s and 1’s). Different sets of bit pattern have been designed to represent text symbols. Each set is called code and the process of designating the symbols is called coding. Today the prevalent coding that is being used is unicode uses 32 bits to represent each symbol or character used in any language in the world. Note: ASCII or American Standard Code For Information Interchange constitutes of first 127 character of the unicode. Numbers Numbers are also represented by bit patterns. They are also represented in a ASCII table. Image Image is composed of a matrix of pixel (image elements).The size of the pixel depends on the resolution of the pixel. Each pixel is assigned a bit pattern and the bit pattern depends on the the size of the pixel. Size of the pixel of the image depends on the basis of there types. for example- black and white, greyscale, RGB and YCM. Audio Here audio refers to the recording or broadcasting of sound or music. Audios are alot different than the other form of data such as images, numbers and text. It is continuous not discrete even when we change it to an electrical signal we create a continuous signal. Video It also refers to broadcasting but of a picture or movie. It can be both contiuous entity (e.g. using a camera) or a discrete entity using a number of images where each represents a discrete entity. Data Flow There are multiple methods by which data transmission takes place between devices which varies on the need and type of our devices. There are three types of data flow techniques which are used which are: Simplex Mode: In simplex mode, the communication is unidirectional as oon a one way street. Only one device on the network can send and only one device can receive the data. Simplex mode is most commonly used in devices like keyboard and mouse. Half-Dulpex Mode: in the duplex mode both the devices on the network can behave like sender and receiver and transmit data to each other. A common example for duplex mode are walky-talkies. Full-Duplex Mode: In Full-Duplex mode both the devices can perform sender and receiver task either ways but unlike half duplex they can perform tasks simultaneously.A common example of full duplex mode is the telephone network. When two individuals are talking to each other on a telephone network they can talk and listen at same time. So that is it for our first tutorial of computer networking, In next tutorial we will learn about networks. please do shre your suggestionsand feedback in comments." />
+<link rel="canonical" href="https://tushar2411.github.io/networking/releases/2020/12/29/Networking-Tutorial-01.html" />
+<meta property="og:url" content="https://tushar2411.github.io/networking/releases/2020/12/29/Networking-Tutorial-01.html" />
+<meta property="og:site_name" content="Computer Networking And Cybersecurity" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-12-29T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"Data Communication Data communications are the exchange of data to the between two devices via some form of transmission medium such as a wire cable. Effectiveness Of Data Communication The effectiveness of the data communication depends on:- Delivery: Data must be received by intended user. Accuracy: Accurate data should be delivered to user. Timelliness: Data should be delivered in timely manner. Jitter: It refers to the variation in the packet arrival. Components OF Data Communication Message: Information(data) to be communicated. Sender: Device that sends the message. Receiver: Device that receives message. Transmission Medium: Path through which data transfers from sender to receiver. Protocol: Set of rules for the transmission. Data Communication Model Data Representation information today comes in different forms such as text, numbers, images, audio and video. Text Text is represented in the form of bit pattern, which is a sequence of bits (0’s and 1’s). Different sets of bit pattern have been designed to represent text symbols. Each set is called code and the process of designating the symbols is called coding. Today the prevalent coding that is being used is unicode uses 32 bits to represent each symbol or character used in any language in the world. Note: ASCII or American Standard Code For Information Interchange constitutes of first 127 character of the unicode. Numbers Numbers are also represented by bit patterns. They are also represented in a ASCII table. Image Image is composed of a matrix of pixel (image elements).The size of the pixel depends on the resolution of the pixel. Each pixel is assigned a bit pattern and the bit pattern depends on the the size of the pixel. Size of the pixel of the image depends on the basis of there types. for example- black and white, greyscale, RGB and YCM. Audio Here audio refers to the recording or broadcasting of sound or music. Audios are alot different than the other form of data such as images, numbers and text. It is continuous not discrete even when we change it to an electrical signal we create a continuous signal. Video It also refers to broadcasting but of a picture or movie. It can be both contiuous entity (e.g. using a camera) or a discrete entity using a number of images where each represents a discrete entity. Data Flow There are multiple methods by which data transmission takes place between devices which varies on the need and type of our devices. There are three types of data flow techniques which are used which are: Simplex Mode: In simplex mode, the communication is unidirectional as oon a one way street. Only one device on the network can send and only one device can receive the data. Simplex mode is most commonly used in devices like keyboard and mouse. Half-Dulpex Mode: in the duplex mode both the devices on the network can behave like sender and receiver and transmit data to each other. A common example for duplex mode are walky-talkies. Full-Duplex Mode: In Full-Duplex mode both the devices can perform sender and receiver task either ways but unlike half duplex they can perform tasks simultaneously.A common example of full duplex mode is the telephone network. When two individuals are talking to each other on a telephone network they can talk and listen at same time. So that is it for our first tutorial of computer networking, In next tutorial we will learn about networks. please do shre your suggestionsand feedback in comments.","url":"https://tushar2411.github.io/networking/releases/2020/12/29/Networking-Tutorial-01.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://tushar2411.github.io/networking/releases/2020/12/29/Networking-Tutorial-01.html"},"headline":"Networking Tutorial 1:- Data Communication","dateModified":"2020-12-29T00:00:00-06:00","datePublished":"2020-12-29T00:00:00-06:00","author":{"@type":"Person","name":"Tushar Sharma"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/networking/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://tushar2411.github.io/networking/feed.xml" title="Computer Networking And Cybersecurity" /><link rel="shortcut icon" type="image/x-icon" href="/networking/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/networking/">Computer Networking And Cybersecurity</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/networking/about/">About</a><a class="page-link" href="/networking/search/">Search</a><a class="page-link" href="/networking/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Networking Tutorial 1:- Data Communication</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-12-29T00:00:00-06:00" itemprop="datePublished">
+        Dec 29, 2020
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Tushar Sharma</span></span>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/networking/categories/#releases">releases</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#data-communication">Data Communication</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#effectiveness-of-data-communication">Effectiveness Of Data Communication</a></li>
+<li class="toc-entry toc-h2"><a href="#components-of-data-communication">Components OF Data Communication</a></li>
+<li class="toc-entry toc-h2"><a href="#data-representation">Data Representation</a></li>
+<li class="toc-entry toc-h2"><a href="#data-flow">Data Flow</a></li>
+</ul>
+</li>
+</ul><h1 id="data-communication">
+<a class="anchor" href="#data-communication" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Communication</h1>
+<p>Data communications are the exchange of data to the between two devices via some form of transmission medium such as a wire cable.</p>
+
+<h2 id="effectiveness-of-data-communication">
+<a class="anchor" href="#effectiveness-of-data-communication" aria-hidden="true"><span class="octicon octicon-link"></span></a>Effectiveness Of Data Communication</h2>
+<p>The effectiveness of the data communication depends on:-</p>
+<ol>
+  <li>Delivery: Data must be received by intended user.</li>
+  <li>Accuracy: Accurate data should be delivered to user.</li>
+  <li>Timelliness: Data should be delivered in timely manner.</li>
+  <li>Jitter: It refers to the variation in the <a href="https://en.wikipedia.org/wiki/Network_packet">packet</a> arrival.</li>
+</ol>
+
+<h2 id="components-of-data-communication">
+<a class="anchor" href="#components-of-data-communication" aria-hidden="true"><span class="octicon octicon-link"></span></a>Components OF Data Communication</h2>
+<ol>
+  <li>Message: Information(data) to be communicated.</li>
+  <li>Sender: Device that sends the message.</li>
+  <li>Receiver: Device that receives message.</li>
+  <li>Transmission Medium: Path through which data transfers from sender to receiver.</li>
+  <li>Protocol: Set of rules for the transmission.</li>
+</ol>
+
+<p><img src="https://github.com/tushar2411/networking/blob/master/images/data%20communication%20model.jpg" alt="data communication model"> <em>Data Communication Model</em></p>
+
+<h2 id="data-representation">
+<a class="anchor" href="#data-representation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Representation</h2>
+<p>information today comes in different forms such as text, numbers, images, audio and video.</p>
+
+<ul>
+  <li>Text <br>
+Text is represented in the form of bit pattern, which is a sequence of bits (0’s and 1’s). Different sets of bit pattern have been designed to represent text symbols. Each set is called code and the process of designating the symbols is called coding.<br>
+Today the prevalent coding that is being used is <a href="https://en.wikipedia.org/wiki/Unicode"><em>unicode</em></a> uses 32 bits to represent each symbol or character used in any language in the world.</li>
+</ul>
+
+<p><em><code class="language-plaintext highlighter-rouge"> Note:  ASCII or American Standard Code For Information Interchange constitutes of first 127 character of the unicode.  </code></em></p>
+
+<ul>
+  <li>
+    <p>Numbers
+Numbers are also represented by bit patterns. They are also represented in a ASCII table.</p>
+  </li>
+  <li>
+    <p>Image
+Image is composed of a matrix of pixel (image elements).The size of the pixel depends on the resolution of the pixel. Each pixel is assigned a bit pattern and the bit pattern depends on the the size of the pixel.
+Size of the pixel of the image depends on the basis of there types. for example- black and white, greyscale, RGB and YCM.</p>
+  </li>
+  <li>
+    <p>Audio 
+Here audio refers to the recording or broadcasting of sound or music. Audios are alot different than the other form of data such as images, numbers and text. It is continuous not discrete even when we change it to an electrical signal we create a continuous signal.</p>
+  </li>
+  <li>
+    <p>Video
+It also refers to broadcasting but of a picture or movie. It can be both contiuous entity (e.g. using a camera) or a discrete entity using a number of images where each represents a discrete entity.</p>
+  </li>
+</ul>
+
+<h2 id="data-flow">
+<a class="anchor" href="#data-flow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Flow</h2>
+<p>There are multiple methods by which data transmission takes place between devices which varies on the need and type of our devices.
+There are three types of data flow techniques which are used which are:</p>
+<ol>
+  <li>Simplex Mode:
+In simplex mode, the communication is unidirectional as oon a one way street. Only one device on the network can send and only one device can receive the data. Simplex mode is most commonly used in devices like keyboard and mouse.<br>
+<img src="https://github.com/tushar2411/networking/blob/master/images/simplex.jpg" alt="simplex mode">
+</li>
+  <li>Half-Dulpex Mode:
+in the duplex mode both the devices on the network can behave like sender and receiver and transmit data to each other. A common example for duplex mode are walky-talkies.  <br>
+<img src="https://github.com/tushar2411/networking/blob/master/images/half%20duplex.jpg" alt="half duplex mode">
+</li>
+  <li>Full-Duplex Mode:
+In Full-Duplex mode both the devices can perform sender and receiver task either ways but unlike half duplex they can perform tasks simultaneously.A common example of full duplex mode is the telephone network. When two individuals are talking to each other on a telephone network they can talk and listen at same time.<br>
+<img src="https://github.com/tushar2411/networking/blob/master/images/full%20duplex.jpg" alt="full duplex mode">
+</li>
+</ol>
+
+<p><em><code class="language-plaintext highlighter-rouge">So that is it for our first tutorial of computer networking,</code></em><br>
+<em><code class="language-plaintext highlighter-rouge">In next tutorial we will learn about networks.</code></em><br>
+<em><code class="language-plaintext highlighter-rouge">please do shre your suggestionsand feedback in comments.</code></em></p>
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="tushar2411/networking"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/networking/releases/2020/12/29/Networking-Tutorial-01.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/networking/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/networking/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/networking/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>your daily dose of networks and cybersecurity articles, tutorials</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/tushar2411" title="tushar2411"><svg class="svg-icon grey"><use xlink:href="/networking/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/Tushar01_01" title="Tushar01_01"><svg class="svg-icon grey"><use xlink:href="/networking/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
