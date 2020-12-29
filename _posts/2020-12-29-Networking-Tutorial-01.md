@@ -24,7 +24,7 @@ The effectiveness of the data communication depends on:-
 4. Transmission Medium: Path through which data transfers from sender to receiver.
 5. Protocol: Set of rules for the transmission.
     
-![data communication model](https://github.com/tushar2411/networking/blob/master/images/data%20communication%20model.jpg) *Data Communication Model*   
+![data communication model](/images/data communication model.png) *Data Communication Model*   
 
 ## Data Representation   
 Information today comes in different forms such as text, numbers, image, audio and video.
