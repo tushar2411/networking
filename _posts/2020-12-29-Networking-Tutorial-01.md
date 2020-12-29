@@ -27,7 +27,7 @@ The effectiveness of the data communication depends on:-
 ![data communication model](https://github.com/tushar2411/networking/blob/master/images/data%20communication%20model.jpg) *Data Communication Model*   
 
 ## Data Representation   
-information today comes in different forms such as text, numbers, images, audio and video.
+Information today comes in different forms such as text, numbers, images, audio and video.
 
 * Text   
 Text is represented in the form of bit pattern, which is a sequence of bits (0's and 1's). Different sets of bit pattern have been designed to represent text symbols. Each set is called code and the process of designating the symbols is called coding.  
