@@ -53,13 +53,13 @@ There are multiple methods by which data transmission takes place between device
 There are three types of data flow techniques which are used:
 1. Simplex Mode:
    In simplex mode, the communication is unidirectional as on a one way street. Only one device on the network can send and only one device can receive the data. Simplex mode is most commonly used in devices like keyboard and mouse.  
-   ![simplex mode](https://github.com/tushar2411/networking/blob/master/images/simplex.jpg)
+   ![simplex mode](https://raw.githubusercontent.com/tushar2411/networking/master/images/simplex.png)
 2. Half-Dulpex Mode:
    In the duplex mode both the devices on the network can behave like sender and receiver and transmit data to each other. A common example for duplex mode are walky-talkies.    
-   ![half duplex mode](https://github.com/tushar2411/networking/blob/master/images/half%20duplex.jpg)
+   ![half duplex mode](https://raw.githubusercontent.com/tushar2411/networking/master/images/half%20duplex.png)
 3. Full-Duplex Mode:
    In Full-Duplex mode both the devices can perform sender and receiver task either ways but unlike half duplex they can perform tasks simultaneously.A common example of full duplex mode is the telephone network. When two individuals are talking to each other on a telephone network they can talk and listen at same time.  
-   ![full duplex mode](https://github.com/tushar2411/networking/blob/master/images/full%20duplex.jpg)
+   ![full duplex mode](https://raw.githubusercontent.com/tushar2411/networking/master/images/full%20duplex.png)
 
 *`So that is it for our first tutorial of computer networking,`*  
 *`In next tutorial we will learn about networks.`*  
