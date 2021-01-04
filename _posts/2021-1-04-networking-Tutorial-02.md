@@ -27,15 +27,15 @@ Interconnection of set of device capable of communication. The device could be a
    It provides a dedicated link between two devices.  
    example: connection with controller while changing channels on t.v.
 
-   ![P2P](https://raw.githubusercontent.com/tushar2411/networking/master/images/point-to-point.jpg)
+   ![P2P](https://raw.githubusercontent.com/tushar2411/networking/master/images/point-to-point.jpg)  
 2. Multipoint or Multidrop Connection:  
    Connection one in which more than two specific devices share a single link.  
    Capacity of the link is shared:  
    * If several devices use simultaneously it is spatially shared connection.
    * If users must take turn than it is timeshared connection.  
    example: server access by multiple people.  
-   ![multipoint](https://raw.githubusercontent.com/tushar2411/networking/master/images/multipoint.jpg)
-  --- ---  
+   ![multipoint](https://raw.githubusercontent.com/tushar2411/networking/master/images/multipoint.jpg)  
+    
 ## Network Topologies 
 * It refer to the way in which a network is laid out physically.   
 * Two or more devices connect to a link.  
@@ -48,7 +48,7 @@ There are four basic types of topologies:
 * ring
 
 ### 1. Mesh Topology  
-  ![mesh](https://raw.githubusercontent.com/tushar2411/networking/master/images/mesh.jpg)
+  ![mesh](https://raw.githubusercontent.com/tushar2411/networking/master/images/mesh.jpg)  
 * Every device has a dedicated point to point link to every other device.  
 * To find number of physical links in a fully connected topology:  
   * number of links = n(n-1)/2 ; n = number of nodes or devices
