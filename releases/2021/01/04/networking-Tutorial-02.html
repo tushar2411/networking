@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Networking Tutorial 2:- Network And Topology | Computer Networking And Cybersecurity</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Networking Tutorial 2:- Network And Topology" />
+<meta name="author" content="Tushar Sharma" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Networks Interconnection of set of device capable of communication. The device could be a host(computer) or a router or a modem. Network Criteria Performance: Measured in transit time and response time. Depends on users, factors, transmission time, capabilities of hardware and efficiency of software. Often evaluted by throughput and delay. If we try to send more data to the network, we may increase throughput but we increase the delay because of traffic congestion in the network. Reliability: Network reliability is inversely proportional to frequency of failure. Security: Data should be transmitted from authorized access, policies and procedures should be implemented for recovery from breaches and data loses. Physical Structure Point to point Connection: It provides a dedicated link between two devices. example: connection with controller while changing channels on t.v. Multipoint or Multidrop Connection: Connection one in which more than two specific devices share a single link. Capacity of the link is shared: If several devices use simultaneously it is spatially shared connection. If users must take turn than it is timeshared connection. example: server access by multiple people. — — Network Topologies * It refer to the way in which a network is laid out physically. * Two or more devices connect to a link. * Two or more link form a topology. There are four basic types of topologies: mesh star bus ring 1. Mesh Topology Every device has a dedicated point to point link to every other device. To find number of physical links in a fully connected topology: number of links = n(n-1)/2 ; n = number of nodes or devices Advantages: Eliminates traffic problems Robust Privacy and Security Fault identification due to P2P(point to point) links Disadvantages: Amount of cabling and number of I/O ports Installation and reconnetion difficulty Expensive Space availability shortage Example: Telephone regional offices 2. Star Topology Each device has dedicated P2P connected to a controller or hub. Device not directly linked to each other. Data transmission via hub to other devices. Advantages: Less expansive Easy to install and reconfigure Less cabling Robust Disadvantages: Whole dependency on hub If hub goes down system is dead More cables required in some cases Example: used on LAN 3. Bus Topology Bus topology is a multipoint connection. One long cable acts as a backbone to link to all devices in a network. Devices are connected to the backbone using connectors. Advantages: Ease of installation Uses less cable than others Main cable travels to each device Disadvantages: Difficult reconnection and fault isolation Difficult to add new device Degradation of quality Break in bus cable causes noise in both direction Example: Ethernet’s LAN’s 4. Ring Topology Each device has a dedicated P2P connection. Connection with only the two devices on either side of it. Signal is passed in the ring in one direction until it reaches its destination. Repeater regenerates bits and passes them along. Advantages: Easy to install and configure To add a device or remove requires changing only 2 connections Fault isolation is simplified Disadvantages: Unidirectional Single break in connection disrupt entire network Less popular Example: Used in early IBM LAN network So here we end our tutorial for the networking tutorial series Please do read if you are interested in netwworking In next tutorial we will study about- The History of Network, The almighty Internet and Switching" />
+<meta property="og:description" content="Networks Interconnection of set of device capable of communication. The device could be a host(computer) or a router or a modem. Network Criteria Performance: Measured in transit time and response time. Depends on users, factors, transmission time, capabilities of hardware and efficiency of software. Often evaluted by throughput and delay. If we try to send more data to the network, we may increase throughput but we increase the delay because of traffic congestion in the network. Reliability: Network reliability is inversely proportional to frequency of failure. Security: Data should be transmitted from authorized access, policies and procedures should be implemented for recovery from breaches and data loses. Physical Structure Point to point Connection: It provides a dedicated link between two devices. example: connection with controller while changing channels on t.v. Multipoint or Multidrop Connection: Connection one in which more than two specific devices share a single link. Capacity of the link is shared: If several devices use simultaneously it is spatially shared connection. If users must take turn than it is timeshared connection. example: server access by multiple people. — — Network Topologies * It refer to the way in which a network is laid out physically. * Two or more devices connect to a link. * Two or more link form a topology. There are four basic types of topologies: mesh star bus ring 1. Mesh Topology Every device has a dedicated point to point link to every other device. To find number of physical links in a fully connected topology: number of links = n(n-1)/2 ; n = number of nodes or devices Advantages: Eliminates traffic problems Robust Privacy and Security Fault identification due to P2P(point to point) links Disadvantages: Amount of cabling and number of I/O ports Installation and reconnetion difficulty Expensive Space availability shortage Example: Telephone regional offices 2. Star Topology Each device has dedicated P2P connected to a controller or hub. Device not directly linked to each other. Data transmission via hub to other devices. Advantages: Less expansive Easy to install and reconfigure Less cabling Robust Disadvantages: Whole dependency on hub If hub goes down system is dead More cables required in some cases Example: used on LAN 3. Bus Topology Bus topology is a multipoint connection. One long cable acts as a backbone to link to all devices in a network. Devices are connected to the backbone using connectors. Advantages: Ease of installation Uses less cable than others Main cable travels to each device Disadvantages: Difficult reconnection and fault isolation Difficult to add new device Degradation of quality Break in bus cable causes noise in both direction Example: Ethernet’s LAN’s 4. Ring Topology Each device has a dedicated P2P connection. Connection with only the two devices on either side of it. Signal is passed in the ring in one direction until it reaches its destination. Repeater regenerates bits and passes them along. Advantages: Easy to install and configure To add a device or remove requires changing only 2 connections Fault isolation is simplified Disadvantages: Unidirectional Single break in connection disrupt entire network Less popular Example: Used in early IBM LAN network So here we end our tutorial for the networking tutorial series Please do read if you are interested in netwworking In next tutorial we will study about- The History of Network, The almighty Internet and Switching" />
+<link rel="canonical" href="https://tushar2411.github.io/networking/releases/2021/01/04/networking-Tutorial-02.html" />
+<meta property="og:url" content="https://tushar2411.github.io/networking/releases/2021/01/04/networking-Tutorial-02.html" />
+<meta property="og:site_name" content="Computer Networking And Cybersecurity" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-04T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"Networks Interconnection of set of device capable of communication. The device could be a host(computer) or a router or a modem. Network Criteria Performance: Measured in transit time and response time. Depends on users, factors, transmission time, capabilities of hardware and efficiency of software. Often evaluted by throughput and delay. If we try to send more data to the network, we may increase throughput but we increase the delay because of traffic congestion in the network. Reliability: Network reliability is inversely proportional to frequency of failure. Security: Data should be transmitted from authorized access, policies and procedures should be implemented for recovery from breaches and data loses. Physical Structure Point to point Connection: It provides a dedicated link between two devices. example: connection with controller while changing channels on t.v. Multipoint or Multidrop Connection: Connection one in which more than two specific devices share a single link. Capacity of the link is shared: If several devices use simultaneously it is spatially shared connection. If users must take turn than it is timeshared connection. example: server access by multiple people. — — Network Topologies * It refer to the way in which a network is laid out physically. * Two or more devices connect to a link. * Two or more link form a topology. There are four basic types of topologies: mesh star bus ring 1. Mesh Topology Every device has a dedicated point to point link to every other device. To find number of physical links in a fully connected topology: number of links = n(n-1)/2 ; n = number of nodes or devices Advantages: Eliminates traffic problems Robust Privacy and Security Fault identification due to P2P(point to point) links Disadvantages: Amount of cabling and number of I/O ports Installation and reconnetion difficulty Expensive Space availability shortage Example: Telephone regional offices 2. Star Topology Each device has dedicated P2P connected to a controller or hub. Device not directly linked to each other. Data transmission via hub to other devices. Advantages: Less expansive Easy to install and reconfigure Less cabling Robust Disadvantages: Whole dependency on hub If hub goes down system is dead More cables required in some cases Example: used on LAN 3. Bus Topology Bus topology is a multipoint connection. One long cable acts as a backbone to link to all devices in a network. Devices are connected to the backbone using connectors. Advantages: Ease of installation Uses less cable than others Main cable travels to each device Disadvantages: Difficult reconnection and fault isolation Difficult to add new device Degradation of quality Break in bus cable causes noise in both direction Example: Ethernet’s LAN’s 4. Ring Topology Each device has a dedicated P2P connection. Connection with only the two devices on either side of it. Signal is passed in the ring in one direction until it reaches its destination. Repeater regenerates bits and passes them along. Advantages: Easy to install and configure To add a device or remove requires changing only 2 connections Fault isolation is simplified Disadvantages: Unidirectional Single break in connection disrupt entire network Less popular Example: Used in early IBM LAN network So here we end our tutorial for the networking tutorial series Please do read if you are interested in netwworking In next tutorial we will study about- The History of Network, The almighty Internet and Switching","url":"https://tushar2411.github.io/networking/releases/2021/01/04/networking-Tutorial-02.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://tushar2411.github.io/networking/releases/2021/01/04/networking-Tutorial-02.html"},"headline":"Networking Tutorial 2:- Network And Topology","dateModified":"2021-01-04T00:00:00-06:00","datePublished":"2021-01-04T00:00:00-06:00","author":{"@type":"Person","name":"Tushar Sharma"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/networking/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://tushar2411.github.io/networking/feed.xml" title="Computer Networking And Cybersecurity" /><link rel="shortcut icon" type="image/x-icon" href="/networking/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/networking/">Computer Networking And Cybersecurity</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/networking/about/">About</a><a class="page-link" href="/networking/search/">Search</a><a class="page-link" href="/networking/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Networking Tutorial 2:- Network And Topology</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-01-04T00:00:00-06:00" itemprop="datePublished">
+        Jan 4, 2021
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Tushar Sharma</span></span>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/networking/categories/#releases">releases</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#networks">Networks</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#network-criteria">Network Criteria</a></li>
+<li class="toc-entry toc-h2"><a href="#physical-structure">Physical Structure</a></li>
+<li class="toc-entry toc-h2"><a href="#network-topologies">Network Topologies</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#1-mesh-topology">1. Mesh Topology</a></li>
+<li class="toc-entry toc-h3"><a href="#2-star-topology">2. Star Topology</a></li>
+<li class="toc-entry toc-h3"><a href="#3-bus-topology">3. Bus Topology</a></li>
+<li class="toc-entry toc-h3"><a href="#4-ring-topology">4. Ring Topology</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h1 id="networks">
+<a class="anchor" href="#networks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Networks</h1>
+<p>Interconnection of set of device capable of communication. The device could be a host(computer) or a router or a modem.</p>
+
+<h2 id="network-criteria">
+<a class="anchor" href="#network-criteria" aria-hidden="true"><span class="octicon octicon-link"></span></a>Network Criteria</h2>
+<ul>
+  <li>Performance:
+    <ul>
+      <li>Measured in transit time and response time.</li>
+      <li>Depends on users, factors, transmission time, capabilities of hardware and efficiency of software.</li>
+      <li>Often evaluted by throughput and delay.</li>
+      <li>If we try to send more data to the network, we may increase throughput but we increase the delay because of traffic congestion in the network.</li>
+    </ul>
+  </li>
+  <li>Reliability:
+    <ul>
+      <li>Network reliability is inversely proportional to frequency of failure.</li>
+    </ul>
+  </li>
+  <li>Security:
+    <ul>
+      <li>Data should be transmitted from authorized access, policies and procedures should be implemented for recovery from breaches and data loses.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="physical-structure">
+<a class="anchor" href="#physical-structure" aria-hidden="true"><span class="octicon octicon-link"></span></a>Physical Structure</h2>
+<ol>
+  <li>
+    <p>Point to point Connection:<br>
+It provides a dedicated link between two devices.<br>
+example: connection with controller while changing channels on t.v.</p>
+
+    <p><img src="" alt="P2P"></p>
+  </li>
+  <li>
+    <p>Multipoint or Multidrop Connection:<br>
+Connection one in which more than two specific devices share a single link.<br>
+Capacity of the link is shared:</p>
+    <ul>
+      <li>If several devices use simultaneously it is spatially shared connection.</li>
+      <li>If users must take turn than it is timeshared connection.<br>
+example: server access by multiple people.<br>
+<img src="" alt="multipoint">
+— —
+        <h2 id="network-topologies">
+<a class="anchor" href="#network-topologies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Network Topologies</h2>
+        <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code> * It refer to the way in which a network is laid out physically.   
+ * Two or more devices connect to a link.  
+ * Two or more link form a topology.
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<p>There are four basic types of topologies:</p>
+<ul>
+  <li>mesh</li>
+  <li>star</li>
+  <li>bus</li>
+  <li>ring</li>
+</ul>
+
+<h3 id="1-mesh-topology">
+<a class="anchor" href="#1-mesh-topology" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Mesh Topology</h3>
+<p><img src="" alt="mesh"></p>
+<ul>
+  <li>Every device has a dedicated point to point link to every other device.</li>
+  <li>To find number of physical links in a fully connected topology:
+    <ul>
+      <li>number of links = n(n-1)/2 ; n = number of nodes or devices</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Advantages:</p>
+<ul>
+  <li>Eliminates traffic problems</li>
+  <li>Robust</li>
+  <li>Privacy and Security</li>
+  <li>Fault identification due to P2P(point to point) links</li>
+</ul>
+
+<p>Disadvantages:</p>
+<ul>
+  <li>Amount of cabling and number of I/O ports</li>
+  <li>Installation and reconnetion difficulty</li>
+  <li>Expensive</li>
+  <li>Space availability shortage</li>
+</ul>
+
+<p>Example: Telephone regional offices</p>
+
+<h3 id="2-star-topology">
+<a class="anchor" href="#2-star-topology" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Star Topology</h3>
+<p><img src="" alt="star"></p>
+<ul>
+  <li>Each device has dedicated P2P connected to a controller or hub.</li>
+  <li>Device not directly linked to each other.</li>
+  <li>Data transmission via hub to other devices.</li>
+</ul>
+
+<p>Advantages:</p>
+<ul>
+  <li>Less expansive</li>
+  <li>Easy to install and reconfigure</li>
+  <li>Less cabling</li>
+  <li>Robust</li>
+</ul>
+
+<p>Disadvantages:</p>
+<ul>
+  <li>Whole dependency on hub</li>
+  <li>If hub goes down system is dead</li>
+  <li>More cables required in some cases</li>
+</ul>
+
+<p>Example: used on LAN</p>
+
+<h3 id="3-bus-topology">
+<a class="anchor" href="#3-bus-topology" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Bus Topology</h3>
+<p><img src="" alt="bus"></p>
+<ul>
+  <li>Bus topology is a multipoint connection.</li>
+  <li>One long cable acts as a backbone to link to all devices in a network.</li>
+  <li>Devices are connected to the backbone using connectors.</li>
+</ul>
+
+<p>Advantages:</p>
+<ul>
+  <li>Ease of installation</li>
+  <li>Uses less cable than others</li>
+  <li>Main cable travels to each device</li>
+</ul>
+
+<p>Disadvantages:</p>
+<ul>
+  <li>Difficult reconnection and fault isolation</li>
+  <li>Difficult to add new device</li>
+  <li>Degradation of quality</li>
+  <li>Break in bus cable causes noise in both direction</li>
+</ul>
+
+<p>Example: Ethernet’s LAN’s</p>
+
+<h3 id="4-ring-topology">
+<a class="anchor" href="#4-ring-topology" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. Ring Topology</h3>
+<p><img src="" alt="ring"></p>
+<ul>
+  <li>Each device has a dedicated P2P connection.</li>
+  <li>Connection with only the two devices on either side of it.</li>
+  <li>Signal is passed in the ring in one direction until it reaches its destination.</li>
+  <li>Repeater regenerates bits and passes them  along.</li>
+</ul>
+
+<p>Advantages:</p>
+<ul>
+  <li>Easy to install and configure</li>
+  <li>To add a device or remove requires changing only 2 connections</li>
+  <li>Fault isolation is simplified</li>
+</ul>
+
+<p>Disadvantages:</p>
+<ul>
+  <li>Unidirectional</li>
+  <li>Single break in connection disrupt entire network</li>
+  <li>Less popular</li>
+</ul>
+
+<p>Example:  Used in early IBM LAN network</p>
+
+<hr>
+<p><em><code class="language-plaintext highlighter-rouge">So here we end our tutorial for the networking tutorial series </code></em><br>
+<em><code class="language-plaintext highlighter-rouge">Please do read if you are interested in netwworking</code></em><br>
+<em><code class="language-plaintext highlighter-rouge">In next tutorial we will study about- The History of Network, The almighty Internet and Switching</code></em></p>
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="tushar2411/networking"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/networking/releases/2021/01/04/networking-Tutorial-02.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/networking/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/networking/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/networking/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>your daily dose of networks and cybersecurity articles, tutorials</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/tushar2411" title="tushar2411"><svg class="svg-icon grey"><use xlink:href="/networking/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/Tushar01_01" title="Tushar01_01"><svg class="svg-icon grey"><use xlink:href="/networking/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
