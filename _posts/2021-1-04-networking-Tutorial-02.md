@@ -27,14 +27,14 @@ Interconnection of set of device capable of communication. The device could be a
    It provides a dedicated link between two devices.  
    example: connection with controller while changing channels on t.v.
 
-   ![P2P]()
+   ![P2P](https://raw.githubusercontent.com/tushar2411/networking/master/images/point-to-point.jpg)
 2. Multipoint or Multidrop Connection:  
    Connection one in which more than two specific devices share a single link.  
    Capacity of the link is shared:  
    * If several devices use simultaneously it is spatially shared connection.
    * If users must take turn than it is timeshared connection.  
    example: server access by multiple people.  
-   ![multipoint]()
+   ![multipoint](https://raw.githubusercontent.com/tushar2411/networking/master/images/multipoint.jpg)
   --- ---  
 ## Network Topologies 
 * It refer to the way in which a network is laid out physically.   
@@ -48,7 +48,7 @@ There are four basic types of topologies:
 * ring
 
 ### 1. Mesh Topology  
-  ![mesh]()
+  ![mesh](https://raw.githubusercontent.com/tushar2411/networking/master/images/mesh.jpg)
 * Every device has a dedicated point to point link to every other device.  
 * To find number of physical links in a fully connected topology:  
   * number of links = n(n-1)/2 ; n = number of nodes or devices
@@ -68,7 +68,7 @@ Disadvantages:
 Example: Telephone regional offices 
 
 ### 2. Star Topology
-  ![star]()
+  ![star](https://raw.githubusercontent.com/tushar2411/networking/master/images/star.jpg)
 * Each device has dedicated P2P connected to a controller or hub.
 * Device not directly linked to each other.
 * Data transmission via hub to other devices.
@@ -87,7 +87,7 @@ Disadvantages:
 Example: used on LAN
 
 ### 3. Bus Topology
-  ![bus]()   
+  ![bus](https://raw.githubusercontent.com/tushar2411/networking/master/images/bus.jpg)   
 * Bus topology is a multipoint connection.
 * One long cable acts as a backbone to link to all devices in a network.
 * Devices are connected to the backbone using connectors.
@@ -106,7 +106,7 @@ Disadvantages:
 Example: Ethernet's LAN's
 
 ### 4. Ring Topology
-  ![ring]()
+  ![ring](https://raw.githubusercontent.com/tushar2411/networking/master/images/ring.jpg)
 * Each device has a dedicated P2P connection.
 * Connection with only the two devices on either side of it.
 * Signal is passed in the ring in one direction until it reaches its destination.
