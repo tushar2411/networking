@@ -126,7 +126,7 @@ Example:  Used in early IBM LAN network
 
 --- --- 
 *`So here we end our tutorial for the networking tutorial series `*  
-*`Please do read if you are interested in netwworking`*  
+*`Please do read if you are interested in networking`*  
 *`In next tutorial we will study about- The History of Network, The almighty Internet and Switching`*
 
   
